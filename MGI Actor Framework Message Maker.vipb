@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-02-03 17:23:18" Creator="Derek" Comments="" ID="9a2badc0a41d62e5de61963146134195">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-02-03 23:00:38" Creator="Derek" Comments="" ID="74883e6719b61496875e488531238dad">
   <Library_General_Settings>
     <Package_File_Name>MGI_lib_MGI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>..\Packages</Library_Output_Folder>
