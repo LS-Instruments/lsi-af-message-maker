@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-05-18 11:50:39" Creator="Derek" Comments="" ID="023e5833742c22322dc13b6b5097b2a9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-05-18 12:40:11" Creator="Derek" Comments="" ID="dfd3c2eb7898a6cee6236857034ec68a">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>1.1.0.14</Library_Version>
+    <Library_Version>1.1.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -142,7 +142,7 @@ Next, readability. We felt like there were two main things that a message needed
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
