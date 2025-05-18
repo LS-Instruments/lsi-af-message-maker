@@ -24,6 +24,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="AF Message Maker Tests.lvproj" Type="Document" URL="../Tests/AF Message Maker Tests.lvproj"/>
 			<Item Name="Test Actor 1.lvlib" Type="Library" URL="../Tests/Test Actor 1/Test Actor 1.lvlib"/>
 			<Item Name="Test Actor 2.lvlib" Type="Library" URL="../Tests/Test Actor 2/Test Actor 2.lvlib"/>
 			<Item Name="Test Interface.lvlib" Type="Library" URL="../Tests/Test Interface/Test Interface.lvlib"/>
@@ -32,10 +33,10 @@
 			<Item Name="Post-Uninstall Custom Action.vi" Type="VI" URL="../VIPM/Post-Uninstall Custom Action.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../VIPM/Pre-Install Custom Action.vi"/>
 		</Item>
+		<Item Name="LSI AF Message Maker.vi" Type="VI" URL="../LSI AF Message Maker.vi"/>
 		<Item Name="Message Maker.lvclass" Type="LVClass" URL="../Message Maker/Message Maker.lvclass"/>
 		<Item Name="Message Template Interface.lvclass" Type="LVClass" URL="../Template Interface/Message Template Interface.lvclass"/>
 		<Item Name="Message Template.lvclass" Type="LVClass" URL="../Template/Message Template.lvclass"/>
-		<Item Name="MGI AF Message Maker.vi" Type="VI" URL="../MGI AF Message Maker.vi"/>
 		<Item Name="Save for 2020.vi" Type="VI" URL="../Save for 2020.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
