@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-05-18 12:40:11" Creator="Derek" Comments="" ID="dfd3c2eb7898a6cee6236857034ec68a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-06-03 17:00:06" Creator="Derek" Comments="" ID="05e945d5f79008eca670c9867e394ce0">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>1.1.0.15</Library_Version>
+    <Library_Version>1.1.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -28,7 +28,9 @@
     <VI_Package_Configuration_File>LSI Actor Framework Message Maker.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Improved Actor Framework Message Maker Supporting Interfaces</One_Line_Description_Summary>
-      <Description>An enhanced Actor Framework Message Maker!
+      <Description>This is a fork of the &lt;b&gt;MGI Actor Framework Message Maker&lt;/b&gt; (&lt;u&gt;&lt;i&gt; https://www.vipm.io/package/mgi_lib_mgi_actor_framework_message_maker/ &lt;/u&gt;&lt;/i&gt;) that adds support for interfaces.
+
+An enhanced Actor Framework Message Maker!
 
 Key improvements over NI's Actor Framework Message Maker:
 

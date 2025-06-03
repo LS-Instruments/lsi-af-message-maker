@@ -1,5 +1,7 @@
 # An enhanced Actor Framework Message Maker!
 
+This is a fork of the [MGI Actor Framework Message Maker](https://gitlab.com/mgi/labview-tools-network/af-message-maker) where we added support for interfaces.
+
 Key improvements over NI's Actor Framework Message Maker:
 
 * Ability to update already built messages
