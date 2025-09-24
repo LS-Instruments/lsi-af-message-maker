@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-06-03 17:00:06" Creator="Derek" Comments="" ID="05e945d5f79008eca670c9867e394ce0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-09-24 11:24:04" Creator="Derek" Comments="" ID="68a1f370037bdab4f784f96448c4fb18">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>1.1.0.18</Library_Version>
+    <Library_Version>1.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -52,7 +52,7 @@ Next, readability. We felt like there were two main things that a message needed
       <Copyright/>
       <Packager>Andrea Vaccaro</Packager>
       <URL>https://github.com/LS-Instruments/lsi-af-message-maker</URL>
-      <Release_Notes>- Added support for interfaces</Release_Notes>
+      <Release_Notes>- Cleaned up the Tools menu</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -133,6 +133,24 @@ Next, readability. We felt like there were two main things that a message needed
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Template</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Template Interface</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Message Maker</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -143,6 +161,9 @@ Next, readability. We felt like there were two main things that a message needed
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>VIPM</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
