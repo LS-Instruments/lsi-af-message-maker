@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Actor 1.lvlib" Type="Library" URL="../Test Actor 1/Test Actor 1.lvlib"/>
 		<Item Name="Test Actor 2.lvlib" Type="Library" URL="../Test Actor 2/Test Actor 2.lvlib"/>
+		<Item Name="Test Async Actor.lvlib" Type="Library" URL="../Test Async Actor/Test Async Actor.lvlib"/>
+		<Item Name="Test Async Interface.lvlib" Type="Library" URL="../Test Async Interface/Test Async Interface.lvlib"/>
 		<Item Name="Test Interface.lvlib" Type="Library" URL="../Test Interface/Test Interface.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
