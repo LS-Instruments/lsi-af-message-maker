@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-09-24 11:24:04" Creator="Derek" Comments="" ID="68a1f370037bdab4f784f96448c4fb18">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-10-22 15:34:16" Creator="Derek" Comments="" ID="326b4cadb0e95b1248b1438a65b248e2">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>1.1.1.4</Library_Version>
+    <Library_Version>2.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -37,6 +37,7 @@ Key improvements over NI's Actor Framework Message Maker:
 - Ability to update already built messages
 - New message icons
 - Send Message VI gets its description and icon from the message VI
+- Async Methods Actor message creation
 
 To use the tool open a your project then select "Tools"-&gt;"LSI Actor Framework Message Maker...". Next select the methods you'd like to create messages for and click "Build/Update Selected Messages"
 
@@ -52,7 +53,8 @@ Next, readability. We felt like there were two main things that a message needed
       <Copyright/>
       <Packager>Andrea Vaccaro</Packager>
       <URL>https://github.com/LS-Instruments/lsi-af-message-maker</URL>
-      <Release_Notes>- Cleaned up the Tools menu</Release_Notes>
+      <Release_Notes>- Added support for the Async Methods Actors message creation
+- Disables Actor selection within the GUI tree</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
