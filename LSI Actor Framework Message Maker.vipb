@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-10-22 15:34:16" Creator="Derek" Comments="" ID="326b4cadb0e95b1248b1438a65b248e2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-10-24 00:09:38" Creator="Derek" Comments="" ID="55c24e1ba762a46553063d6f70c0dbc3">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>2.0.0.1</Library_Version>
+    <Library_Version>2.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -16,7 +16,11 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <External_Dependencies>ls_instruments_ag_lib_async_methods_actor &gt;= 1.0.0.5</External_Dependencies>
+      <Additional_External_Dependencies>vipm_lib_labview_collection_extensions &gt;=0.4.1.39</Additional_External_Dependencies>
+      <Direct_Dependencies>ls_instruments_ag_lib_async_methods_actor-1.0.0.5</Direct_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -149,6 +153,18 @@ Next, readability. We felt like there were two main things that a message needed
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>Message Maker</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Async Template</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Async Template Interface</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>

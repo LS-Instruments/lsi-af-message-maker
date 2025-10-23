@@ -1,2 +1,0 @@
-* enable multiple selection again
-* test rebuild all messages
