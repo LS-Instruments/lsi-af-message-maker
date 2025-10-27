@@ -25,7 +25,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Async Interface.lvlib" Type="Library" URL="../Tests/Test Async Interface/Test Async Interface.lvlib"/>
+			<Item Name="Test Actor No Methods.lvlib" Type="Library" URL="../Tests/Test Actor No Methods/Test Actor No Methods.lvlib"/>
 			<Item Name="Test Async Actor.lvlib" Type="Library" URL="../Tests/Test Async Actor/Test Async Actor.lvlib"/>
 			<Item Name="Test Actor 1.lvlib" Type="Library" URL="../Tests/Test Actor 1/Test Actor 1.lvlib"/>
 			<Item Name="Test Actor 2.lvlib" Type="Library" URL="../Tests/Test Actor 2/Test Actor 2.lvlib"/>
