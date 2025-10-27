@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-10-24 00:09:38" Creator="Derek" Comments="" ID="55c24e1ba762a46553063d6f70c0dbc3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-02-19 13:19:56" Modified_Date="2025-10-27 23:02:55" Creator="Derek" Comments="" ID="09905b051e668abf42b5f2222924ae5b">
   <Library_General_Settings>
     <Package_File_Name>ls_instruments_ag_lib_LSI_Actor_Framework_Message_Maker</Package_File_Name>
-    <Library_Version>2.0.0.7</Library_Version>
+    <Library_Version>2.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>2020</Library_Source_Folder>
     <Library_Output_Folder>VIPM Packages</Library_Output_Folder>
@@ -57,8 +57,7 @@ Next, readability. We felt like there were two main things that a message needed
       <Copyright/>
       <Packager>Andrea Vaccaro</Packager>
       <URL>https://github.com/LS-Instruments/lsi-af-message-maker</URL>
-      <Release_Notes>- Added support for the Async Methods Actors message creation
-- Disables Actor selection within the GUI tree</Release_Notes>
+      <Release_Notes>- Solved a bug whereby an Actor/Interface with no methods would abort the tree refresh</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
